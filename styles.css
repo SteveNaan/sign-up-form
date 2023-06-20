@@ -89,7 +89,7 @@ button {
     border-radius: 10px;
     background-color: #596D48;
     width: 20vmin;
-    margin: 10vmin;
+    margin: 5vmin;
 	font-weight: bold;
 	padding: 10px;
     border: none;
@@ -111,3 +111,54 @@ button:active {
     margin-top: 20vmin;
     margin-bottom: 5vmin;
 }
+
+.formSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formSection label,
+.formSection input {
+    margin-bottom: 1em;
+}
+
+.formSection input {
+    width: 20%; 
+}
+
+legend {
+    margin-bottom: 3vmin;
+}
+
+form {
+    margin: 5vmin 5vmin;
+    width: auto;
+    font-family: 'monospace', Courier; 
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  label {
+    display: flex;
+    width: 200px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #999;
+  }
+  
+  input:focus {
+    border-color: #000;
+  }
