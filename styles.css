@@ -87,7 +87,7 @@ body {
 button {
     color: white;
     border-radius: 10px;
-    background-color: rgb(8, 90, 8);
+    background-color: #596D48;
     width: 20vmin;
     margin: 10vmin;
 	font-weight: bold;
@@ -104,7 +104,7 @@ button:active {
 }
 
 .text {
-    font-size: large;
+    font-size: 1rem;
     font-weight: bold;
     margin-left: 5vmin;
     margin-right: 10vmin;
