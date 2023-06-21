@@ -153,6 +153,7 @@ form {
   
   input,
   textarea {
+    border-color: #E5E7EB;
     width: 100px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -160,5 +161,14 @@ form {
   }
   
   input:focus {
-    border-color: #000000;
+    border-color: blue;
+    box-shadow: 0 2px 4px darkslategray;
+  }
+
+  input:invalid {
+    border-color: red;
+  }
+  
+  input:valid {
+    border-color: green;
   }

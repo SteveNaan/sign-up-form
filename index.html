@@ -21,29 +21,30 @@
         </div>
     </div>
     <div class="createAccount">
-        <button id="button">Create Account</button>
+        <button input type ="submit" id="button" onclick="check()">Create Account</button>
     </div>
     <div class="signUp">
         <form action="example.com/path" method="post">
             <legend>Contact Details</legend>
                 <div class="formSection">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first-name">
-                    <label for="last-name">Last Name:</label>
-                    <input type="text" id="last-name">
+                    <label for="first_name">*First Name:</label>
+                    <input type="text" id="first-name" maxlength="20" required>
+                    <label for="last-name">*Last Name:</label>
+                    <input type="text" id="last-name" maxlength="20" required>
                 </div>
                 <div class="formSection">
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email">
-                    <label for="number">Phone Number:</label>
-                    <input type="number" id="number">
+                    <label for="email">*Email Address:</label>
+                    <input type="email" id="email" required>
+                    <label for="number">*Phone Number:</label>
+                    <input type="number" id="number" minlength="11" maxlength="11" required>
                 </div>
                 <div class="formSection">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password">
-                    <label for="password">Confirm Password:</label>
-                    <input type="password" id="password">
+                    <label for="password">*Password:</label>
+                    <input type="password" id="password" minlength="6" required>
+                    <label for="password">*Confirm Password:</label>
+                    <input type="password" id="passwordCheck" minlength="6" required>
                 </div>
+                <p id="message"></p>
         </form>
     </div>
     <script src="./app.js"></script>
